@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    /* background: linear-gradient(180deg,#e7717d, #c2cad0,#c2b9b0); */
+    background: white;
+    color:#666;
+    text-align:center;
+}
+
+audio{
+    width:450px;
+    margin: 35px 0;
+}
+
+.container{
+    height:450px;
+    overflow:hidden;
+}
+
+.container ul{
+    list-style:none;
+    transition: .6s;
+}
+
+.container li{
+    height:40px;
+    line-height:40px;
+    transition:0.5s;
+}
+
+.container li.active{
+    color:black;
+    transform: scale(1.8);
+}
